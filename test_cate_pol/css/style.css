@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Myriad Pro; /* Имя шрифта */
+    src: url(8143.otf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: MyriadProCond; /* Имя шрифта */
+    src: url(MyriadProCondensed.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+	font-family: Myriad Pro Bold; /* Имя шрифта */
+	src: url(Myriad-Pro-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+#myCarousel.carousel.slide {
+    width: 105.26%;
+    max-width: 1200px; !important
+}
+header {
+	position: relative;
+	height: 500px;
+}
+.sl {
+	padding: 0px;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #e0b7b5;
+	opacity: 0.7;
+	z-index: 2;
+}
+.d2 {
+	width: 100%;
+	height: 200px;
+	background-color: #aaaaaa;
+}
+.nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.logo {
+	color: #ffffff;
+	font-family: "MyriadProCond";
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 60px 0px 0px 140px;
+	z-index: 3;
+}
+.raphael {
+	text-align: center;
+	margin: 125px auto 21px auto;
+	color: #95a5a6;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: -0.29px;
+}
+.raphael h1 {
+    color: #1abc9c;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: .6px;
+    margin-left: 8px;
+}
+.raphael h1 span {
+	letter-spacing: 1.25px;
+    margin-right: 11px;
+    margin-left: 5px;
+}
+.tripple {
+	padding-left: 119px;
+}
+.tripple-item {
+	margin: 30px 0px;
+	padding:  20px 84px 10px 0px;
+	color: #95a5a6;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: -0.24px;
+}
+.tripple-item img {
+	margin-left: calc(50% - 43px);
+	margin-bottom: 8px;
+}
+.tripple-item h3 {
+	padding-right: 23px;
+	margin-bottom: 28px;
+	color: #1abc9c;
+	font-family: "Myriad Pro Bold";
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.32px;
+	text-align: center;
+}
+.horiz {
+	padding: 0px 96px 0px 119px;
+	margin-bottom: 20px;
+}
+.horizontal {
+	width: 100%;
+	height: 26px;
+	border-bottom: 1px solid #e4e8e8;
+}
+.sea {
+	margin: 0 auto;
+}
+.seaside {
+	width: 400px;
+	height: 300px;
+}
+.seaside:nth-child(odd) {
+	float: left;
+}
+.seaside:nth-child(even) {
+	float: right;
+}
